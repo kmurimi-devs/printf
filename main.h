@@ -90,7 +90,7 @@ int write_pointer(char buffer[], int ind, int length,
 
 int write_unsgnd(int is_negative, int ind, char buffer[],
 	int flags, int width, int precision, int size);
-nt is_printable(char);
+int is_printable(char);
 int append_hexa_code(char, char[], int);
 int is_digit(char);
 long int convert_size_number(long int num, int size);
